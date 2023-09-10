@@ -1,5 +1,7 @@
-# este programa es un contador de horas y conversor en tiempo real a horas militar
-# @german-giraldom - $german giraldo marquez $$$$$$$$$$$$
+# este programa cambia de minitos cada segundo  y a medidad que los minutos lleguen a 60
+# va aummentando las horas, asi mismo cambia el formato de las horas, a hora militar en tiempo real
+
+
 import time
 
 horas = 11
@@ -47,4 +49,4 @@ while True:
     minutos += 1
     hora = ""
 
-    time.sleep(1.5)
+    time.sleep(1)
