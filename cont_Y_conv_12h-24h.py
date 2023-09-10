@@ -1,5 +1,5 @@
 # este programa es un contador de horas y conversor en tiempo real a horas militar
-# @german-giraldom - $german giraldo marquez $
+# @german-giraldom - $german giraldo marquez $$$$$$$$$$$$
 import time
 
 horas = 11
