@@ -20,6 +20,7 @@ def disponibilidad (lista, indice, player):
         if (player == 2): lista_o[indice] = "O"
         imprimir(lista_o)
         return True
+   
     
 # la siguiente funcion le pide a el jugador una casilla
 def jugador (player):
