@@ -13,7 +13,6 @@ def imprimir (lista):
         print()
     print("+-----------+")
 
-
 # la siguiente funcion verifica si la casilla que ha elegido esta disponible
 def disponibilidad (lista, indice, player):
     if (type(lista[indice]) == int):
