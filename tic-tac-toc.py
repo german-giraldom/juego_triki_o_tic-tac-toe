@@ -67,7 +67,7 @@ def estado (lista,player):
 
     # recorrido diagonal de derecha a izquierda
     cont = 0
-    for i in lista[:7:-2]:
+    for i in lista[2:7:2]:
         if (i == player):
             cont += 1
     if (cont == 3): return True
